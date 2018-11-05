@@ -1,0 +1,39 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "details of your project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/des-tes/gulp-static-server.git"
+  },
+  "keywords": [
+    "frontend"
+  ],
+  "author": "Des Tes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/des-tes/gulp-static-server/issues"
+  },
+  "homepage": "https://github.com/des-tes/gulp-static-server#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-useref": "^3.1.6",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-pngquant": "^6.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}
